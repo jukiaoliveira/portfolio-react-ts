@@ -53,9 +53,9 @@ const AboutSection: React.FC = () => {
                   <Typography textAlign="center" fontWeight={600}>
                     Experience
                   </Typography>
-                  <Typography textAlign="center">Não tenho</Typography>
+                  <Typography textAlign="center">Não atuo</Typography>
                   <Typography textAlign="center">
-                    Atrás da primeira oportunidade
+                    Dedicando a projetos práticos e estudos constantes.
                   </Typography>
                 </StyledCard>
               </AnimationComponent>
