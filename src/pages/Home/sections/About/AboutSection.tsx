@@ -100,7 +100,7 @@ const AboutSection: React.FC = () => {
               Skills
             </Typography>
           </Box>
-          <Box mb={5}>
+          <Box>
             <Grid container spacing={3} justifyContent="center">
               {skillsSet.map((skill, index) => (
                 <Grid size={{ xs: 5, sm: 4, md: 2, lg: 2 }} key={index}>

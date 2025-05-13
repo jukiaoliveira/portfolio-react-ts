@@ -5,6 +5,7 @@ import Avatar from "../../../../assets/images/eu.jpeg";
 import theme from "../../../../theme";
 import StyledButton from "../../../../components/StyledButton/StyledButton";
 import { AnimatedBackground } from "../../../../components/AnimatedBackground/AnimatedBackground";
+import Typewriter from "../../../../components/Typewriter/Typewriter"
 
 const Hero = () => {
   const StyledHero = styled("div")(({ theme }) => ({
@@ -34,7 +35,7 @@ const Hero = () => {
         console.log("download")
         const link = document.createElement('a');
         link.href = 'CV'
-        link.download = 'example.pdf';
+        link.download = 'CV_Julia_Oliveira.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -42,8 +43,8 @@ const Hero = () => {
 
     const handleEmail = () => {
         const emailAddress = 'jurafaoliveira@icloud.com';
-        const subject = 'Subject';
-        const body = 'Hello! I saw your portfolio...';
+        const subject = 'Interesse em seu portfólio';
+        const body = 'Olá! Eu vi seu portfólio e fiquei interessado(a) em seu trabalho.';
 
         const mailtoLink = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
         window.open(mailtoLink);
@@ -89,9 +90,7 @@ const Hero = () => {
             >
               Júlia Oliveira
             </Typography>
-            <Typography variant="h3" color="secondary" textAlign="center">
-              I am a front-end developer
-            </Typography>
+            <Typewriter text="I'm a front-end developer" delay={120} variant="h2" color="secondary" />
             <Grid
               container
               spacing={3}
