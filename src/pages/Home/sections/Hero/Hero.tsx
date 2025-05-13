@@ -30,6 +30,25 @@ const Hero = () => {
     zIndex: 2,
   }));
 
+  const handleDownload = () => {
+        console.log("download")
+        const link = document.createElement('a');
+        link.href = 'CV'
+        link.download = 'example.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+
+    const handleEmail = () => {
+        const emailAddress = 'jurafaoliveira@icloud.com';
+        const subject = 'Subject';
+        const body = 'Hello! I saw your portfolio...';
+
+        const mailtoLink = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        window.open(mailtoLink);
+    }
+
   return (
     <StyledHero>
       <Container maxWidth="lg">
@@ -87,7 +106,7 @@ const Hero = () => {
                 size={{ xs: 12, md: 4 }}
                 sx={{ display: "flex", justifyContent: "center" }}
               >
-                <StyledButton onClick={() => console.log("Download CV")}>
+                <StyledButton onClick={() => handleDownload()}>
                   <DownloadIcon />
                   <Typography>Download CV</Typography>
                 </StyledButton>
@@ -96,7 +115,7 @@ const Hero = () => {
                 size={{ xs: 12, md: 4 }}
                 sx={{ display: "flex", justifyContent: "center" }}
               >
-                <StyledButton onClick={() => console.log("Contact me")}>
+                <StyledButton onClick={() => handleEmail()}>
                   <MailOutlineIcon />
                   <Typography>Contact me</Typography>
                 </StyledButton>
