@@ -33,7 +33,22 @@ const Hero = () => {
             sx={{ display: "flex", justifyContent: "center" }}
           >
             <Box
-              sx={{ position: "absolute", width: "50%", top: -100, left: 0 }}
+              sx={{
+                position: "absolute",
+                width: {
+                  xs: "100%", 
+                  sm: "80%",
+                  md: "60%",
+                  lg: "50%", 
+                },
+                top: {
+                  xs: -50, 
+                  sm: -70,
+                  md: -80,
+                  lg: -100,
+                },
+                left: 0,
+              }}
             >
               <AnimatedBackground />
             </Box>
@@ -55,6 +70,7 @@ const Hero = () => {
             <Grid
               container
               spacing={3}
+              pt={3}
               sx={{
                 display: "flex",
                 justifyContent: "center",
