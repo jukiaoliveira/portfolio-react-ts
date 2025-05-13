@@ -4,6 +4,7 @@ const NavBar = () => {
   const StyledToobar = styled (Toolbar)(({ theme }) => ({
     display:"flex",
     justifyContent: "space-evenly",
+    color: theme.palette.secondary.main,
   }))
 
   return (
