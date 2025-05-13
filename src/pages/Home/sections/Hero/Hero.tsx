@@ -87,7 +87,7 @@ const Hero = () => {
                 size={{ xs: 12, md: 4 }}
                 sx={{ display: "flex", justifyContent: "center" }}
               >
-                <StyledButton>
+                <StyledButton onClick={() => console.log("Download CV")}>
                   <DownloadIcon />
                   <Typography>Download CV</Typography>
                 </StyledButton>
@@ -96,7 +96,7 @@ const Hero = () => {
                 size={{ xs: 12, md: 4 }}
                 sx={{ display: "flex", justifyContent: "center" }}
               >
-                <StyledButton>
+                <StyledButton onClick={() => console.log("Contact me")}>
                   <MailOutlineIcon />
                   <Typography>Contact me</Typography>
                 </StyledButton>
