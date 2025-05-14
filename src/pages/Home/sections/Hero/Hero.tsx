@@ -34,7 +34,7 @@ const Hero = () => {
   const handleDownload = () => {
         console.log("download")
         const link = document.createElement('a');
-        link.href = 'CV'
+        link.href = '/public/pdfs/CV_Julia_Oliveira.pdf';
         link.download = 'CV_Julia_Oliveira.pdf';
         document.body.appendChild(link);
         link.click();
