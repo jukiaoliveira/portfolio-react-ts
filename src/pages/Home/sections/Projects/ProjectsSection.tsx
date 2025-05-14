@@ -13,7 +13,7 @@ const ProjectsSection: React.FC = () => {
     {
       title: "Project Custom Countdown",
       subtitle: "2025",
-      srcImg: "/public/images/contador.jpg",
+      srcImg: "/images/contador.jpg",
       description:
         "Este projeto é um contador regressivo personalizável desenvolvido com React. O usuário pode: definir o nome do evento, escolher uma data alvo, adicionar uma imagem representando o evento, alterar a cor do tema do contador",
       technologies: "Technologies: JavaScript, HTML, CSS, React",
@@ -23,7 +23,7 @@ const ProjectsSection: React.FC = () => {
     {
       title: "Project Programming Quiz",
       subtitle: "2025",
-      srcImg: "/public/images/quiz.jpg",
+      srcImg: "/images/quiz.jpg",
       description:
         "Este é um projeto de quiz interativo desenvolvido com React, utilizando o Vite para uma build rápida e desenvolvimento local ágil. O quiz permite que o usuário escolha entre as linguagens HTML, CSS e JavaScript para testar seus conhecimentos com perguntas de múltipla escolha. Em algumas questões, é possível solicitar uma dica ou remover uma das alternativas, facilitando a escolha da resposta correta.",
       technologies: "Technologies: JavaScript, HTML, CSS, React",
@@ -33,7 +33,7 @@ const ProjectsSection: React.FC = () => {
     {
       title: "Project Advanced Todo List",
       subtitle: "2024",
-      srcImg: "/public/images/todolist.jpg",
+      srcImg: "/images/todolist.jpg",
       description:
         "Um aplicativo avançado de lista de tarefas, onde é possível adicionar, editar, remover e filtrar tarefas. Este projeto utiliza HTML, CSS e JavaScript, e visa demonstrar habilidades em manipulação de DOM e interatividade de interfaces.",
       technologies: "Technologies: JavaScript, HTML, CSS",
@@ -44,7 +44,7 @@ const ProjectsSection: React.FC = () => {
     {
       title: "Project Password Master",
       subtitle: "2024",
-      srcImg: "/public/images/senha.jpg",
+      srcImg: "/images/senha.jpg",
       description:
         "Um gerador de senhas seguras e personalizáveis, com opções para incluir números, letras e símbolos, além de escolher o comprimento da senha. Inclui uma tela de cadastro simples e intuitiva.",
       technologies: "Technologies: JavaScript, HTML, CSS",
