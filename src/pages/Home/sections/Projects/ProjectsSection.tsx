@@ -11,6 +11,16 @@ const ProjectsSection: React.FC = () => {
 
   const projects = [
     {
+      title: "Project Pam Art (REAL)",
+      subtitle: "2025",
+      srcImg: "/images/pamart.jpg",
+      description:
+        "Aplicação desenvolvida para facilitar o orçamento de festas. O cliente pode selecionar os itens desejados, visualizar o valor total em tempo real e enviar o pedido diretamente via WhatsApp. O sistema também oferece a opção pegue e monte, ideal para quem busca praticidade e economia.",
+      technologies: "Technologies: React e Typescript",
+      websiteURL: "",
+      codeURL: "https://github.com/jukiaoliveira/pam-art-events",
+    },
+    {
       title: "Project Custom Countdown",
       subtitle: "2025",
       srcImg: "/images/contador.jpg",
