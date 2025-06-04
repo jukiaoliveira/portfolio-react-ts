@@ -30,12 +30,15 @@ Este é meu portfólio pessoal, desenvolvido com **React** e **TypeScript**, ond
    git clone https://github.com/jukiaoliveira/portfolio-react-ts.git
 
 2. **Acesse a pasta do projeto:**
+    ```sh
    cd portfolio-react-ts
 
-3. **Instale as dependências:**
+4. **Instale as dependências:**
+    ```sh
    npm install
 
-4. **Inicie o servidor de desenvolvimento:**
+6. **Inicie o servidor de desenvolvimento:**
+    ```sh
    npm run dev
 
  A aplicação estará disponível em http://localhost:5173
@@ -48,6 +51,3 @@ O projeto está hospedado no Netlify e pode ser acessado aqui:
 Sou estudante de Análise e Desenvolvimento de Sistemas, apaixonada por desenvolvimento front-end e sempre em busca de novos desafios.
 Você pode saber mais sobre mim acessando meu LinkedIn:
 🔗 https://www.linkedin.com/in/jurafaoliveira
-
-📄 Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais informações.
