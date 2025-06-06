@@ -23,6 +23,7 @@ const AboutSection: React.FC = () => {
     "Javascript",
     "Typescript",
     "React",
+    "Tailwind CSS",
     "Git",
     "HTML",
     "CSS",
