@@ -1,54 +1,53 @@
-# React + TypeScript + Vite
+# 💻 Portfólio - Júlia Oliveira
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é meu portfólio pessoal, desenvolvido com **React** e **TypeScript**, onde apresento quem sou, minhas principais habilidades e alguns projetos que desenvolvi com muito carinho e dedicação. A proposta é reunir tudo em um só lugar de forma leve, responsiva e moderna.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Funcionalidades
 
-## Expanding the ESLint configuration
+- Seção **Sobre Mim** com um resumo profissional
+- Lista de **Habilidades Técnicas**
+- **Galeria de Projetos**
+- Estilo limpo, responsivo e organizado
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🛠️ Tecnologias Utilizadas
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- React
+- TypeScript
+- Vite
+- React Icons
+- Deploy via Netlify
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 🚀 Como Rodar Localmente
+
+1. **Clone o repositório:**
+   ```sh
+   git clone https://github.com/jukiaoliveira/portfolio-react-ts.git
+
+2. **Acesse a pasta do projeto:**
+    ```sh
+   cd portfolio-react-ts
+
+4. **Instale as dependências:**
+    ```sh
+   npm install
+
+6. **Inicie o servidor de desenvolvimento:**
+    ```sh
+   npm run dev
+
+ A aplicação estará disponível em http://localhost:5173
+
+ 🌐 Deploy
+O projeto está hospedado no Netlify e pode ser acessado aqui:
+👉 [https://portfolio-jukiaoliveira.netlify.app](https://juliaoliveira.netlify.app/)
+
+🙋‍♀️ Sobre Mim
+Sou estudante de Análise e Desenvolvimento de Sistemas, apaixonada por desenvolvimento front-end e sempre em busca de novos desafios.
+Você pode saber mais sobre mim acessando meu LinkedIn:
+🔗 https://www.linkedin.com/in/jurafaoliveira
